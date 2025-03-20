@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ce2a7147292238f1d02306feeafed5e5 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_ce2a7147292238f1d02306feeafed5e5" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_ce2a7147292238f1d02306feeafed5e5 = L.map(
+                "map_ce2a7147292238f1d02306feeafed5e5",
+                {
+                    center: [45.5, -73.6],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_4f991f3308ec21ad7293a51b5f022811 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var marker_db2761c8c6fcae495bc18201d00b953d = L.marker(
+                [45.46290189795332, -73.56838542101066],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_76507380e2fffdd0664f09f8eaf18ec8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_db2761c8c6fcae495bc18201d00b953d.setIcon(icon_76507380e2fffdd0664f09f8eaf18ec8);
+        
+    
+        var popup_0ff552b45590ccdd3e0b205e7c4929da = L.popup({"maxWidth": "100%"});
+
+        
+            var html_d90989827a3f67e13ec9f2b1391e5965 = $(`<div id="html_d90989827a3f67e13ec9f2b1391e5965" style="width: 100.0%; height: 100.0%;">TRAC - 400, rue de l'Église, H4G 2M4</div>`)[0];
+            popup_0ff552b45590ccdd3e0b205e7c4929da.setContent(html_d90989827a3f67e13ec9f2b1391e5965);
+        
+
+        marker_db2761c8c6fcae495bc18201d00b953d.bindPopup(popup_0ff552b45590ccdd3e0b205e7c4929da)
+        ;
+
+        
+    
+    
+            var marker_3f89fa9e062f8b1a18733aa2d983f3ba = L.marker(
+                [45.48158469595735, -73.57627601807903],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_1c5ca60e662a93909e5807077ca774ed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_3f89fa9e062f8b1a18733aa2d983f3ba.setIcon(icon_1c5ca60e662a93909e5807077ca774ed);
+        
+    
+        var popup_de3362d9990a06ca3875a209654c7743 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c2183ceb74a594b83771c0e431cbce55 = $(`<div id="html_c2183ceb74a594b83771c0e431cbce55" style="width: 100.0%; height: 100.0%;">AI MAY TRIEU - 2740 R. Notre Dame O - H3J 1P1</div>`)[0];
+            popup_de3362d9990a06ca3875a209654c7743.setContent(html_c2183ceb74a594b83771c0e431cbce55);
+        
+
+        marker_3f89fa9e062f8b1a18733aa2d983f3ba.bindPopup(popup_de3362d9990a06ca3875a209654c7743)
+        ;
+
+        
+    
+    
+            var marker_5269846780e01d21bd550fec35f0161e = L.marker(
+                [45.45541544546787, -73.57144869239781],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_b3c2d407bba3b5c0fc5a817e8b8aa54b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_5269846780e01d21bd550fec35f0161e.setIcon(icon_b3c2d407bba3b5c0fc5a817e8b8aa54b);
+        
+    
+        var popup_33bf682dfa8aff517d7b413879c44820 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e67f35b5a28c5acbf1e7233d4570f394 = $(`<div id="html_e67f35b5a28c5acbf1e7233d4570f394" style="width: 100.0%; height: 100.0%;">CARON DELLI COLLI LORANGER - 5100 Rue de Verdun - H4G 1N6</div>`)[0];
+            popup_33bf682dfa8aff517d7b413879c44820.setContent(html_e67f35b5a28c5acbf1e7233d4570f394);
+        
+
+        marker_5269846780e01d21bd550fec35f0161e.bindPopup(popup_33bf682dfa8aff517d7b413879c44820)
+        ;
+
+        
+    
+    
+            var marker_cc3837a5a74969e9325225c6d7377bee = L.marker(
+                [45.47879629022256, -73.55883642634893],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_e07c74f4a5bb2d179c1a24c8f20c5c3a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cc3837a5a74969e9325225c6d7377bee.setIcon(icon_e07c74f4a5bb2d179c1a24c8f20c5c3a);
+        
+    
+        var popup_7eb245de032a2091aeb07bf5767a0a44 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_19f30053c5d8a1444a9b932f64a91311 = $(`<div id="html_19f30053c5d8a1444a9b932f64a91311" style="width: 100.0%; height: 100.0%;">CHRISTIAN BASTIEN - 2043 Rue Wellington - H3K 1W7</div>`)[0];
+            popup_7eb245de032a2091aeb07bf5767a0a44.setContent(html_19f30053c5d8a1444a9b932f64a91311);
+        
+
+        marker_cc3837a5a74969e9325225c6d7377bee.bindPopup(popup_7eb245de032a2091aeb07bf5767a0a44)
+        ;
+
+        
+    
+    
+            var marker_75c74f21458c60e3961fdc7cd83cd1b6 = L.marker(
+                [45.45342941307911, -73.5930361701677],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_019ad94fc6c3de42397789e85cdc58b1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_75c74f21458c60e3961fdc7cd83cd1b6.setIcon(icon_019ad94fc6c3de42397789e85cdc58b1);
+        
+    
+        var popup_192e82a93fe884d6b57c4f3e8806c9a0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_da292936da2baf0564fa8737c260aede = $(`<div id="html_da292936da2baf0564fa8737c260aede" style="width: 100.0%; height: 100.0%;">D.HEBERT E.LATOURELLE W.KHODER - 6562 Bd Monk, Montréal, QC H4E 3J1 - H4E 3J1</div>`)[0];
+            popup_192e82a93fe884d6b57c4f3e8806c9a0.setContent(html_da292936da2baf0564fa8737c260aede);
+        
+
+        marker_75c74f21458c60e3961fdc7cd83cd1b6.bindPopup(popup_192e82a93fe884d6b57c4f3e8806c9a0)
+        ;
+
+        
+    
+    
+            var marker_97d9822a32f455b3607f54b2d12f2bdf = L.marker(
+                [45.46211579165381, -73.56686727224357],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_835a5325357c7ccb15ecf83d97fd712f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_97d9822a32f455b3607f54b2d12f2bdf.setIcon(icon_835a5325357c7ccb15ecf83d97fd712f);
+        
+    
+        var popup_98b313e4088ac5bf2a14d18fff6b66fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_13356843c2ba3e8879dc5e174a1c5639 = $(`<div id="html_13356843c2ba3e8879dc5e174a1c5639" style="width: 100.0%; height: 100.0%;">FAMILIPRIX SAMIR BOURAS - 4156 Rue Wellington - H4G 1V7</div>`)[0];
+            popup_98b313e4088ac5bf2a14d18fff6b66fa.setContent(html_13356843c2ba3e8879dc5e174a1c5639);
+        
+
+        marker_97d9822a32f455b3607f54b2d12f2bdf.bindPopup(popup_98b313e4088ac5bf2a14d18fff6b66fa)
+        ;
+
+        
+    
+    
+            var marker_44b3ac463a36f393b9753fe760b41493 = L.marker(
+                [45.479765779385716, -73.5668185588848],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_a1ea5fc291e6f547c82571060402960f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_44b3ac463a36f393b9753fe760b41493.setIcon(icon_a1ea5fc291e6f547c82571060402960f);
+        
+    
+        var popup_4b070d3fac0ef9fcb8d012ac58203fd7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_a41b7109287f8c7d134ca603dd335bf8 = $(`<div id="html_a41b7109287f8c7d134ca603dd335bf8" style="width: 100.0%; height: 100.0%;">GOUIN ET ALACIA - 2374 Rue Centre - H3K 1J7</div>`)[0];
+            popup_4b070d3fac0ef9fcb8d012ac58203fd7.setContent(html_a41b7109287f8c7d134ca603dd335bf8);
+        
+
+        marker_44b3ac463a36f393b9753fe760b41493.bindPopup(popup_4b070d3fac0ef9fcb8d012ac58203fd7)
+        ;
+
+        
+    
+    
+            var marker_abc63d5f5be8fbcbb68485c0f7874093 = L.marker(
+                [45.461165674383736, -73.5668569711556],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_e16d8eb7c223c161d42d23dda6a849be = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_abc63d5f5be8fbcbb68485c0f7874093.setIcon(icon_e16d8eb7c223c161d42d23dda6a849be);
+        
+    
+        var popup_5a2b6794d90c43e5f7d42cd55326d88e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_17443c365e196b83a6da111a8f1366b4 = $(`<div id="html_17443c365e196b83a6da111a8f1366b4" style="width: 100.0%; height: 100.0%;">MELISSA LENA ROSS - 4260 Rue Wellington - H4G 1W2</div>`)[0];
+            popup_5a2b6794d90c43e5f7d42cd55326d88e.setContent(html_17443c365e196b83a6da111a8f1366b4);
+        
+
+        marker_abc63d5f5be8fbcbb68485c0f7874093.bindPopup(popup_5a2b6794d90c43e5f7d42cd55326d88e)
+        ;
+
+        
+    
+    
+            var marker_cabafa56b1a8f410e6514b014385aab3 = L.marker(
+                [45.479383053617894, -73.58167554289638],
+                {}
+            ).addTo(map_ce2a7147292238f1d02306feeafed5e5);
+        
+    
+            var icon_f0f6d5699deaff79f9ae3efd2db7d325 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "plus-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_cabafa56b1a8f410e6514b014385aab3.setIcon(icon_f0f6d5699deaff79f9ae3efd2db7d325);
+        
+    
+        var popup_42f2e98a0c241b07ae7297a3a5551376 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_c126c2df3e4099e469b6ce657cc0e454 = $(`<div id="html_c126c2df3e4099e469b6ce657cc0e454" style="width: 100.0%; height: 100.0%;">PHARMACIE REJEAN RICHER - 3711 R. Notre Dame O - H4C 1P8</div>`)[0];
+            popup_42f2e98a0c241b07ae7297a3a5551376.setContent(html_c126c2df3e4099e469b6ce657cc0e454);
+        
+
+        marker_cabafa56b1a8f410e6514b014385aab3.bindPopup(popup_42f2e98a0c241b07ae7297a3a5551376)
+        ;
+
+        
+    
+</script>
+</html>
